@@ -1,6 +1,5 @@
 <div align="center" >
-    <h1 style="border-bottom: none"> Tiago Jarruge Saraiva </h1>
-    <h2 style="border-bottom: none">Software Developer and Designer</h2>
+    <h1 style="border-bottom: none"> Tiago Jarruge Saraiva - Software Developer and Designer </h1>
 
 
 Meu nome é Tiago Jarruge Saraiva, tenho 20 anos e sou natural do estado de São Paulo, Brasil. Ingressei na área de desenvolvimento de software há 3 anos juntamente com o ínicio de uma graduação em análise e desenvolvimento de sistemas no Instituto Federal de Ciência e Tecnologia de São Paulo, campus Campos do Jordão. Minhas áreas de experiência abrangem majoritariamente desenvolvimento de jogos e sites. Meus projetos concluídos e em andamento podem ser acessados no meu [portfolio](https://tiagojsaraiva.github.io/Portfolio/).
