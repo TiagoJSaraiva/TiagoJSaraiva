@@ -1,0 +1,31 @@
+# Config visual do PDF
+lang: pt-BR
+documentclass: article
+fontsize: 10pt
+geometry: "a4paper, margin=1.6cm"
+colorlinks: true
+linkcolor: azul
+urlcolor: azul
+pagestyle: empty
+header-includes: |
+  ```{=latex}
+  \usepackage[scaled=0.95]{helvet}
+  \renewcommand{\familydefault}{\sfdefault}
+  \usepackage{xcolor}
+  \definecolor{azul}{HTML}{1F4E79}
+  \definecolor{cinza}{HTML}{555555}
+  \usepackage{titlesec}
+  % ## -> seção com linha embaixo
+  \titleformat{\section}{\large\bfseries\color{azul}}{}{0pt}{\MakeUppercase}[\vspace{1pt}{\color{azul}\titlerule[0.8pt]}]
+  \titlespacing*{\section}{0pt}{12pt}{6pt}
+  % ### -> subseção
+  \titleformat{\subsection}{\normalsize\bfseries\color{azul}}{}{0pt}{}
+  \titlespacing*{\subsection}{0pt}{8pt}{8pt}
+  % #### -> frase introdutória em cinza (texto normal; *ênfase* no CV.md fica em itálico)
+  \titleformat{\subsubsection}{\normalsize\color{cinza}}{}{0pt}{}
+  \titlespacing*{\subsubsection}{0pt}{9pt}{5pt}
+  \usepackage{enumitem}
+  \setlist[itemize]{leftmargin=1.2em, itemsep=4pt, topsep=2pt, label={\color{azul}\textbullet}}
+  \setlength{\parindent}{0pt}
+  \setlength{\parskip}{3pt}
+  ```
