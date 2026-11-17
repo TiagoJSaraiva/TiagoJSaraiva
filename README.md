@@ -28,6 +28,8 @@ Meu nome é Tiago Jarruge Saraiva, tenho 20 anos e sou natural do estado de São
   <img src="icons/supabase.svg" alt="Supabase" title="Supabase" width="40" height="40" />
   <img src="icons/vercel.svg" alt="Vercel" title="Vercel" width="40" height="40" />
   <img src="icons/render.svg" alt="Render" title="Render" width="40" height="40" />
+  <img src="icons/gimp.svg" alt="GIMP" title="GIMP" width="40" height="40" />
+  <img src="icons/krita.svg" alt="Krita" title="Krita" width="40" height="40" />
 </p>
 
 **Outras**
